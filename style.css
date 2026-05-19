@@ -39,8 +39,8 @@ nav {
 }
 
 nav.scrolled {
-  background: var(--navy);
-  box-shadow: 0 2px 20px rgba(27, 42, 74, 0.3);
+  background: linear-gradient(135deg, #1b2a4a 0%, #3a1a2e 100%);
+  box-shadow: 0 2px 20px rgba(27, 42, 74, 0.4);
 }
 
 .nav-logo {
@@ -72,7 +72,7 @@ nav.scrolled {
 /* ── HERO ── */
 #hero {
   min-height: 100vh;
-  background: var(--navy);
+  background: linear-gradient(150deg, #1b2a4a 0%, #2a1e35 55%, #4a1a2e 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,9 +86,8 @@ nav.scrolled {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 60% 40%, rgba(201,168,76,0.12) 0%, transparent 65%),
-              radial-gradient(ellipse at 15% 85%, rgba(125,34,72,0.25) 0%, transparent 50%),
-              radial-gradient(ellipse at 85% 15%, rgba(125,34,72,0.1) 0%, transparent 40%);
+  background: radial-gradient(ellipse at 65% 35%, rgba(201,168,76,0.1) 0%, transparent 55%),
+              radial-gradient(ellipse at 10% 90%, rgba(125,34,72,0.3) 0%, transparent 45%);
 }
 
 .hero-content {
@@ -340,7 +339,7 @@ section { padding: 6rem 2rem; }
 
 /* ── STATS ── */
 #stats {
-  background: var(--navy);
+  background: linear-gradient(135deg, #1b2a4a 0%, #3a1228 100%);
   padding: 4rem 2rem;
 }
 
@@ -473,7 +472,7 @@ section { padding: 6rem 2rem; }
 
 /* ── E-BOOK ── */
 #ebook {
-  background: var(--navy);
+  background: linear-gradient(135deg, #4a1a2e 0%, #2a1e35 50%, #1b2a4a 100%);
   position: relative;
   overflow: hidden;
 }
@@ -482,7 +481,7 @@ section { padding: 6rem 2rem; }
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 80% 50%, rgba(201,168,76,0.08) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 80% 50%, rgba(201,168,76,0.1) 0%, transparent 55%);
   pointer-events: none;
 }
 
