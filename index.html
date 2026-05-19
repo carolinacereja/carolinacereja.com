@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carolina Cereja — Turismo, Marketing & Negócios</title>
+  <meta name="description" content="Carolina Cereja — Profissional de turismo, marketing e negócios." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon placeholder: substituir por um favicon real -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+<body>
+
+  <!-- ── NAVEGAÇÃO ── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Carolina Cereja</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-content">
+      <span class="hero-tag">Turismo · Marketing · Negócios</span>
+      <h1 class="hero-name">
+        Carolina<br><span>Cereja</span>
+      </h1>
+      <p class="hero-subtitle">
+        Conectando pessoas, destinos e oportunidades através de<br>
+        estratégia, criatividade e visão de negócios.
+      </p>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-gold">Conheça meu trabalho</a>
+        <a href="#contact" class="btn btn-outline">Entrar em contato</a>
+      </div>
+    </div>
+    <div class="scroll-hint">scroll</div>
+  </section>
+
+  <!-- ── SOBRE ── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label">Sobre mim</p>
+          <h2 class="section-title">Uma profissional movida por propósito e resultados</h2>
+          <div class="section-divider"></div>
+          <p>
+            <!-- ✏️ EDITE AQUI: escreva sua apresentação pessoal -->
+            Sou Carolina Cereja, profissional apaixonada pelo universo do turismo, marketing e negócios internacionais. Acredito que cada destino conta uma história — e que a estratégia certa transforma experiências em resultados reais.
+          </p>
+          <p>
+            <!-- ✏️ EDITE AQUI: adicione mais detalhes sobre sua trajetória -->
+            Com experiência em [sua área de atuação], atuo na interseção entre criatividade e estratégia, desenvolvendo soluções que conectam marcas ao seu público de forma autêntica e eficiente.
+          </p>
+          <div class="about-tags">
+            <!-- ✏️ EDITE AQUI: suas competências / palavras-chave -->
+            <span class="tag">Turismo</span>
+            <span class="tag">Marketing Digital</span>
+            <span class="tag">Negócios Internacionais</span>
+            <span class="tag">Estratégia de Marca</span>
+            <span class="tag">Gestão de Projetos</span>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="about-photo-placeholder" id="photoArea">
+            <!-- ✏️ Para adicionar sua foto: substitua a tag abaixo
+                 <img src="foto.jpg" alt="Carolina Cereja" />
+            -->
+            <span class="initials">CC</span>
+          </div>
+          <div class="about-accent"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ── -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <!-- ✏️ EDITE AQUI: seus números -->
+          <div class="stat-number">5+</div>
+          <div class="stat-label">Anos de experiência</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Projetos realizados</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">Países explorados</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTATO ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="section-label">Contato</p>
+          <h2 class="section-title">Vamos conversar?</h2>
+          <div class="section-divider"></div>
+          <p>
+            Estou sempre aberta a novos projetos, parcerias e oportunidades.
+            Se quiser trocar ideias ou saber mais sobre meu trabalho, é só entrar em contato.
+          </p>
+          <div class="contact-links">
+            <!-- ✏️ EDITE AQUI: seus links reais -->
+            <a href="mailto:carolina@carolinacereja.com" class="contact-link">
+              <span class="contact-link-icon">✉</span>
+              carolina@carolinacereja.com
+            </a>
+            <a href="https://linkedin.com/in/carolinacereja" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-icon">in</span>
+              LinkedIn
+            </a>
+            <a href="https://instagram.com/carolinacereja" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-icon">ig</span>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Conte-me sobre seu projeto ou ideia..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-wine">Enviar mensagem</button>
+          <p id="formFeedback" style="font-size:0.85rem; color: var(--wine); display:none; margin-top:0.5rem;"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>© 2026 Carolina Cereja — <a href="https://carolinacereja.com">carolinacereja.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
